@@ -1,0 +1,77 @@
+/* CSS unique to RegularMenu */
+.daily-meal-section {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: #f48524;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+}
+
+.meal-list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.meal-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.meal-item:hover {
+  transform: translateY(-5px);
+}
+
+.day-button {
+  background-color: #f48524;
+  color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  text-align: center;
+}
+
+.orange-btn {
+  background-color: #f48524;
+}
+
+.meal-description {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  text-align: left;
+}
+
+.meal-price {
+  background-color: #8BC34A;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+.green-price-box {
+  background-color: #8BC34A;
+  color: white;
+}

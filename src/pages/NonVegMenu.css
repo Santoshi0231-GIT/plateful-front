@@ -1,0 +1,68 @@
+/* CSS unique to NonVegMenu */
+.menu-section-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-title {
+  text-align: center;
+  color: #f48524;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+}
+
+.daily-lunch-menu-area {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #8BC34A;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.meal-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.meal-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.meal-item:hover {
+  transform: translateY(-5px);
+}
+
+.day-button {
+  background-color: #f48524;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.meal-description {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.meal-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #8BC34A;
+}
+
